@@ -1,0 +1,74 @@
+{
+	"reList":[
+		{
+			"src":"./data/img/img49.jpg",
+			"name":"镇魂街",
+			"author":"许辰",
+			"tag":"少年 魔幻",
+			"play":"44.84亿"
+		},
+		{
+			"src":"./data/img/img34.jpg",
+			"name":"妖闻录",
+			"author":"小铜钱",
+			"tag":"少年 魔幻",
+			"play":"1.1亿"
+		},
+		{
+			"src":"./data/img/img38.jpg",
+			"name":"神医嫡女",
+			"author":"北京三幅",
+			"tag":"少女 魔幻 恋爱",
+			"play":"3597万"
+		},
+		{
+			"src":"./data/img/img42.jpg",
+			"name":"妖神记",
+			"author":"上海风炫踏雪动漫动画",
+			"tag":"少年 魔幻",
+			"play":"4.03亿"
+		},
+		{
+			"src":"./data/img/img43.jpg",
+			"name":"驭灵师",
+			"author":"时代漫王",
+			"tag":"少年 魔幻 搞笑",
+			"play":"3.57亿"
+		},
+		{
+			"src":"./data/img/img45.jpg",
+			"name":"纯情花嫁",
+			"author":"北京三幅",
+			"tag":"少女 生活 恋爱",
+			"play":"9152万"
+		},
+		{
+			"src":"./data/img/img13.jpg",
+			"name":"拜见女皇陛下",
+			"author":"ZCloud",
+			"tag":"少年 生活 恋爱",
+			"play":"1.62亿"
+		},
+		{
+			"src":"./data/img/img48.jpg",
+			"name":"重生之慕臻（全彩）",
+			"author":"阿柯文化传媒",
+			"tag":"少女 恋爱",
+			"play":"6213万"
+		},
+		{
+			"src":"./data/img/img6.jpg",
+			"name":"没白活",
+			"author":"子夜冷风",
+			"tag":"少女 生活 恋爱",
+			"play":"1.62亿"
+		},
+		{
+			"src":"./data/img/img33.jpg",
+			"name":"world game",
+			"author":"日设月计",
+			"tag":"少年 魔幻 战争",
+			"play":"3243万"
+		}
+	]
+}

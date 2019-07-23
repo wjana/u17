@@ -67,10 +67,10 @@
 						<p class="com" v-bind:class="{max:-1==num}">
 							{{item.com}}
 						</p>
-						<div class="show">
+						<!--<div class="show">
 							<img src="../../assets/img/down.png" v-if="num!=-1" @click="show(-1)"/>
 							<img src="../../assets/img/up.png" v-if="num==-1" @click="hide(-1)"/>
-						</div>
+						</div>-->
 						<p class="time">{{item.time}}</p>
 					</div>
 				</li>
@@ -79,10 +79,10 @@
 					<div class="">
 						<p class="name">{{item.name}}<i>{{item.grade}}</i></p>
 						<p class="com" v-bind:class="{max:index==num}">{{item.com}}</p>
-						<div class="show">
+						<!--<div class="show">
 							<img src="../../assets/img/down.png" v-if="num!=index" @click="show(index)"/>
 							<img src="../../assets/img/up.png" v-if="num==index" @click="hide(index)"/>
-						</div>
+						</div>-->
 						<p class="time">{{item.time}}</p>
 					</div>
 				</li>
@@ -144,14 +144,15 @@
 		    	
 		    })
 		    .finally((f)=>{
-		    	var com = document.getElementsByClassName('com')
-				for(var i=0;i<com.length;i++){
-					var show = document.getElementsByClassName('show')
-					if(com[i].offsetHeight < 125){
-						show[i].style.display='none'
-					}
-					
-				}
+//		    	var com = document.getElementsByClassName('com')
+//				for(var i=0;i<com.length;i++){
+//					var s = document.getElementsByClassName('show')
+//					if(com[i].offsetHeight != 125){
+//						s[i].style.display='none'
+//					}
+//					console.log(com[i],com[i].offsetHeight)
+//				}
+				
 				document.onscroll = function(){
 					var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop || 0;
 					var show = document.getElementById('gotop')
@@ -394,13 +395,13 @@
 		font-size: 14px;
 		line-height: 1.8;
 		margin-top: 10px;
-		overflow: hidden;
+		/*overflow: hidden;*/
 		/*display: -webkit-box;
 		-webkit-box-orient: vertical;
 		-webkit-line-clamp: 5;
 		word-break: break-all;
 		text-overflow: ellipsis;*/
-		max-height: 125px;
+		/*max-height: 125px;*/
 	}
 	.show{
 		width: 16%;
